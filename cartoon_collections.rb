@@ -22,7 +22,7 @@ def long_planeteer_calls(words)
   words.any? {|word| word.length > 4}
 end
 
-
+#Accept an array of strings and through these strings to find and return the first string that is a type of cheese
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.detect {|snack| cheese_types.include?(snack)}
