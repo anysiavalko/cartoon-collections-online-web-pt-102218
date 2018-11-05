@@ -17,10 +17,11 @@ def summon_captain_planet(planeteer_calls)
 end
  #The method didn't pass when I did new_array.push(puts "#{element.capitalize}!"), I had to take out the 'puts'
 
-#Accept an array of calls and tell us if any calls are longer than four letters
+#Accept an array of calls and tell us if any calls are longer than four characters
 def long_planeteer_calls(words)
   words.any? {|word| word.length > 4}
 end
+
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
